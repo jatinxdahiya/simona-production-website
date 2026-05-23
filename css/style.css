@@ -1,4 +1,6 @@
+/* ========================= */
 /* RESET */
+/* ========================= */
 
 * {
     margin: 0;
@@ -6,20 +8,200 @@
     box-sizing: border-box;
 }
 
+/* ========================= */
 /* GLOBAL */
+/* ========================= */
 
 body {
-    background-color: #0b0b0b;
-    color: white;
+    background-color: #050505;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
-/* TITLE */
+/* ========================= */
+/* NAVBAR */
+/* ========================= */
 
-h1 {
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 50px 80px;
+}
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.hero {
+
+    position: relative;
+
+    height: 100vh;
+
+    background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop');
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 80px;
+}
+
+/* DARK OVERLAY */
+
+.overlay {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 10;
+
+    max-width: 700px;
+}
+
+/* HEADING */
+
+.hero-content h1 {
+
     font-family: 'Anton', sans-serif;
-    font-size: 6rem;
-    text-align: center;
-    margin-top: 100px;
-    letter-spacing: 4px;
+
+    font-size: 5.5rem;
+
+    line-height: 1.1;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 25px;
+}
+
+/* PARAGRAPH */
+
+.hero-content p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.8;
+
+    color: #dddddd;
+
+    margin-bottom: 40px;
+}
+
+/* BUTTON CONTAINER */
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 20px;
+}
+
+/* BUTTONS */
+
+.btn-primary,
+.btn-secondary {
+
+    text-decoration: none;
+
+    padding: 14px 32px;
+
+    border-radius: 4px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+/* PRIMARY BUTTON */
+
+.btn-primary {
+
+    background-color: #ff3c3c;
+
+    color: white;
+}
+
+.btn-primary:hover {
+
+    background-color: #ff1f1f;
+}
+
+/* SECONDARY BUTTON */
+
+.btn-secondary {
+
+    border: 1px solid white;
+
+    color: white;
+}
+
+.btn-secondary:hover {
+
+    background-color: white;
+
+    color: black;
+}
+
+/* LOGO */
+
+.logo {
+
+    font-family: 'Anton', sans-serif;
+
+    font-size: 2rem;
+
+    letter-spacing: 3px;
+}
+
+/* NAV LINKS */
+
+.nav-links {
+
+    display: flex;
+
+    gap: 40px;
+
+    list-style: none;
+}
+
+/* LINKS */
+
+.nav-links a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 0.95rem;
+
+    transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+
+.nav-links a:hover {
+
+    color: #ff3c3c;
 }
