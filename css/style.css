@@ -237,15 +237,16 @@ body {
     .hero {
 
         padding: 0 5%;
-
+        background-position: center;
         text-align: center;
-
         justify-content: center;
     }
 
     .hero-content h1 {
 
         font-size: 3rem;
+        max-width: 900px;
+        width: 100%;
     }
 
     .hero-content p {
