@@ -294,7 +294,7 @@ body {
 .songs-section {
 
     padding: 100px 80px;
-    margin-top: 240px;
+    margin-top: 400px;
     background-color: #0b0b0b;
 }
 
@@ -321,7 +321,7 @@ body {
 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
-    gap: 5px;
+    gap: 15px;
 }
 
 /* SONG CARD */
