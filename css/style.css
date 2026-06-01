@@ -236,10 +236,21 @@ body {
 
     .hero {
 
-        padding: 0 5%;
+        position: relative;
+
+        min-height: 85vh;
+
+        background-image: url('CURRENT_IMAGE_URL');
+
+        background-size: cover;
+
         background-position: center;
-        text-align: center;
-        justify-content: center;
+
+        display: flex;
+
+        align-items: center;
+
+        padding: 0 5%;
     }
 
     .hero-content h1 {
