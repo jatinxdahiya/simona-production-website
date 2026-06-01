@@ -32,6 +32,8 @@ body {
     align-items: center;
 
     padding: 50px 80px;
+
+    gap: 40px;
 }
 /* ========================= */
 /* HERO SECTION */
@@ -186,7 +188,11 @@ body {
 
     display: flex;
 
-    gap: 40px;
+    gap: 28px;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
 
     list-style: none;
 }
@@ -201,7 +207,33 @@ body {
 
     font-size: 0.95rem;
 
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
     transition: 0.3s ease;
+}
+
+.social-link {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 28px;
+
+    height: 28px;
+}
+
+.social-link svg {
+
+    width: 24px;
+
+    height: 24px;
+
+    fill: currentColor;
 }
 
 /* HOVER EFFECT */
