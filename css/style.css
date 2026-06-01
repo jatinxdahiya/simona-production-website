@@ -16,6 +16,7 @@ body {
     background-color: #050505;
     font-family: 'Inter', sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
 /* ========================= */
@@ -38,9 +39,11 @@ body {
 
 .hero {
 
-    position: absolute;
+    position: relative;
 
-    height: 75vh;
+    width: 100%;
+
+    min-height: 85vh;
 
     background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop');
 
@@ -52,7 +55,7 @@ body {
 
     align-items: center;
 
-    padding: 0 80px;
+    padding: 0 5%;
 }
 
 /* DARK OVERLAY */
@@ -78,7 +81,9 @@ body {
 
     z-index: 10;
 
-    max-width: 700px;
+    width: 100%;
+
+    max-width: 1100px;
 }
 
 /* HEADING */
@@ -236,21 +241,7 @@ body {
 
     .hero {
 
-        position: relative;
-
-        min-height: 85vh;
-
-        background-image: url('CURRENT_IMAGE_URL');
-
-        background-size: cover;
-
-        background-position: center;
-
-        display: flex;
-
-        align-items: center;
-
-        padding: 0 5%;
+        min-height: 80vh;
     }
 
     .hero-content h1 {
@@ -306,7 +297,6 @@ body {
 .songs-section {
 
     padding: 100px 80px;
-    margin-top: 500px;
     background-color: #0b0b0b;
 }
 
