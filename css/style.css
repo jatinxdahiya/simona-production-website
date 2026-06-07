@@ -80,8 +80,7 @@ a {
 
 .hero {
     position: relative;
-    aspect-ratio: 16 / 9;
-    min-height: auto;
+    min-height: 100vh;
     display: flex;
     align-items: flex-end;
     padding: 160px 48px 70px;
@@ -104,14 +103,14 @@ a {
     background-image: url('https://img.youtube.com/vi/JAlSBeFZCtg/maxresdefault.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     filter: saturate(0.86) contrast(1.08);
-    transform: scale(1);
-    transition: opacity 0.35s ease;
+    transform: scale(1.02);
+    transition: opacity 0.35s ease, transform 0.7s ease;
 }
 
 .hero-image.is-changing {
     opacity: 0.42;
+    transform: scale(1.05);
 }
 
 .hero-inner {
@@ -504,8 +503,6 @@ a {
     }
 
     .hero {
-        aspect-ratio: auto;
-        min-height: 100vh;
         padding: 190px 22px 56px;
     }
 
