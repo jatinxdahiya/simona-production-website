@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Simona Production</title>
+    <title>Videos | Simona Production</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -40,51 +40,59 @@
         </ul>
     </nav>
 
-    <main>
-        <section class="hero" data-hero-slider>
-            <div class="hero-image" data-hero-image aria-hidden="true"></div>
+    <main class="page-main">
+        <section class="songs-section page-section" id="videos">
+            <div class="section-header">
+                <p class="eyebrow">Catalogue</p>
+                <h1>Releases / Videos</h1>
+            </div>
 
-            <div class="hero-inner">
-                <div class="hero-content">
-                    <p class="eyebrow">Independent label / Visual music house</p>
-                    <h1>Simona Production</h1>
-                    <p class="hero-copy">
-                        Cinematic music, emotional storytelling, and visuals built for artists who want every release to feel like a world.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="videos.html" class="btn btn-primary">Explore Releases</a>
-                        <a href="videos.html" class="btn btn-secondary">Watch Videos</a>
-                    </div>
-                </div>
+            <div class="filter-row" aria-label="Release categories">
+                <span>All</span>
+                <span>Music Videos</span>
+                <span>Singles</span>
+                <span>Cinematic</span>
+                <span>2026</span>
+            </div>
 
-                <aside class="hero-preview" aria-label="Featured video preview">
-                    <div class="preview-frame">
-                        <iframe
-                            data-hero-video
-                            src="https://www.youtube.com/embed/JAlSBeFZCtg?autoplay=1&mute=1&controls=0&loop=1&playlist=JAlSBeFZCtg&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3"
-                            title="Latest Release preview"
-                            allow="autoplay; encrypted-media; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
+            <div class="songs-grid">
+                <a href="https://www.youtube.com/watch?v=JAlSBeFZCtg" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/JAlSBeFZCtg/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Music Video</span>
+                        <h3>Latest Release</h3>
                     </div>
+                    <div class="play-button">Play</div>
+                </a>
 
-                    <div class="preview-details">
-                        <div>
-                            <span data-hero-kicker>Music Video</span>
-                            <h2 data-hero-title>Latest Release</h2>
-                        </div>
-                        <a href="https://www.youtube.com/watch?v=JAlSBeFZCtg" target="_blank" data-hero-link>Open Video</a>
+                <a href="https://www.youtube.com/watch?v=H1WVHpcIKqI" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/H1WVHpcIKqI/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Single</span>
+                        <h3>Visual Story</h3>
                     </div>
+                    <div class="play-button">Play</div>
+                </a>
 
-                    <div class="slider-controls">
-                        <button type="button" class="slider-arrow" data-hero-prev aria-label="Previous video">‹</button>
-                        <div class="slider-dots" data-hero-dots aria-label="Choose featured video"></div>
-                        <button type="button" class="slider-arrow" data-hero-next aria-label="Next video">›</button>
+                <a href="https://www.youtube.com/watch?v=LuN0hrZ6ujw" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/LuN0hrZ6ujw/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Video</span>
+                        <h3>Simona Cut</h3>
                     </div>
-                </aside>
+                    <div class="play-button">Play</div>
+                </a>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <p>© 2026 Simona Production</p>
+        <div>
+            <a href="https://www.instagram.com/simona_production24" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@simonaproduction5566" target="_blank">YouTube</a>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

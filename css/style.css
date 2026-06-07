@@ -300,6 +300,16 @@ a {
     color: #fff;
 }
 
+.page-main {
+    min-height: calc(100vh - 76px);
+    padding-top: 104px;
+    background: #050505;
+}
+
+.page-section {
+    min-height: calc(100vh - 104px);
+}
+
 .statement-section {
     padding: 70px 48px;
     border-top: 1px solid rgba(244, 240, 232, 0.14);
@@ -329,8 +339,11 @@ a {
     margin-bottom: 28px;
 }
 
+.section-header h1,
 .section-header h2,
+.about-section h1,
 .about-section h2,
+.contact-section h1,
 .contact-section h2 {
     font-family: 'Anton', sans-serif;
     font-size: 4rem;
@@ -459,6 +472,7 @@ a {
     color: #b91717;
 }
 
+.contact-section h1,
 .contact-section h2 {
     max-width: 900px;
     margin-bottom: 30px;
@@ -502,6 +516,10 @@ a {
         gap: 16px;
     }
 
+    .page-main {
+        padding-top: 150px;
+    }
+
     .hero {
         padding: 190px 22px 56px;
     }
@@ -543,6 +561,10 @@ a {
         font-size: 0.68rem;
     }
 
+    .page-main {
+        padding-top: 170px;
+    }
+
     .hero h1 {
         font-size: 3.8rem;
     }
@@ -551,8 +573,11 @@ a {
         display: block;
     }
 
+    .section-header h1,
     .section-header h2,
+    .about-section h1,
     .about-section h2,
+    .contact-section h1,
     .contact-section h2 {
         font-size: 2.8rem;
     }
