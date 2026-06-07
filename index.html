@@ -41,18 +41,47 @@
     </nav>
 
     <main>
-        <section class="hero">
-            <div class="hero-image" aria-hidden="true"></div>
-            <div class="hero-content">
-                <p class="eyebrow">Independent label / Visual music house</p>
-                <h1>Simona Production</h1>
-                <p class="hero-copy">
-                    Cinematic music, emotional storytelling, and visuals built for artists who want every release to feel like a world.
-                </p>
-                <div class="hero-actions">
-                    <a href="#releases" class="btn btn-primary">Explore Releases</a>
-                    <a href="https://www.youtube.com/@simonaproduction5566" target="_blank" class="btn btn-secondary">Watch Videos</a>
+        <section class="hero" data-hero-slider>
+            <div class="hero-image" data-hero-image aria-hidden="true"></div>
+
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <p class="eyebrow">Independent label / Visual music house</p>
+                    <h1>Simona Production</h1>
+                    <p class="hero-copy">
+                        Cinematic music, emotional storytelling, and visuals built for artists who want every release to feel like a world.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#releases" class="btn btn-primary">Explore Releases</a>
+                        <a href="https://www.youtube.com/@simonaproduction5566" target="_blank" class="btn btn-secondary">Watch Videos</a>
+                    </div>
                 </div>
+
+                <aside class="hero-preview" aria-label="Featured video preview">
+                    <div class="preview-frame">
+                        <iframe
+                            data-hero-video
+                            src="https://www.youtube.com/embed/JAlSBeFZCtg?autoplay=1&mute=1&controls=0&loop=1&playlist=JAlSBeFZCtg&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3"
+                            title="Latest Release preview"
+                            allow="autoplay; encrypted-media; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="preview-details">
+                        <div>
+                            <span data-hero-kicker>Music Video</span>
+                            <h2 data-hero-title>Latest Release</h2>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=JAlSBeFZCtg" target="_blank" data-hero-link>Open Video</a>
+                    </div>
+
+                    <div class="slider-controls">
+                        <button type="button" class="slider-arrow" data-hero-prev aria-label="Previous video">‹</button>
+                        <div class="slider-dots" data-hero-dots aria-label="Choose featured video"></div>
+                        <button type="button" class="slider-arrow" data-hero-next aria-label="Next video">›</button>
+                    </div>
+                </aside>
             </div>
         </section>
 
