@@ -6,32 +6,23 @@
 
     <title>Simona Production</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- NAVBAR -->
-
     <nav class="navbar">
-
-        <div class="logo">
-            SIMONA PRODUCTION
-        </div>
+        <a href="#" class="logo">SIMONA PRODUCTION</a>
 
         <ul class="nav-links">
-
             <li><a href="#">Home</a></li>
             <li><a href="#releases">Releases</a></li>
             <li><a href="#videos">Videos</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li>
                 <a href="https://www.instagram.com/simona_production24" target="_blank" class="social-link" aria-label="Instagram">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -46,103 +37,100 @@
                     </svg>
                 </a>
             </li>
-
         </ul>
-
     </nav>
-    <!-- HERO SECTION -->
 
-    <section class="hero">
+    <main>
+        <section class="hero">
+            <div class="hero-image" aria-hidden="true"></div>
+            <div class="hero-content">
+                <p class="eyebrow">Independent label / Visual music house</p>
+                <h1>Simona Production</h1>
+                <p class="hero-copy">
+                    Cinematic music, emotional storytelling, and visuals built for artists who want every release to feel like a world.
+                </p>
+                <div class="hero-actions">
+                    <a href="#releases" class="btn btn-primary">Explore Releases</a>
+                    <a href="https://www.youtube.com/@simonaproduction5566" target="_blank" class="btn btn-secondary">Watch Videos</a>
+                </div>
+            </div>
+        </section>
 
-     <div class="overlay"></div>
-
-        <div class="hero-content">
-
-            <h1>
-                Independent Music.<br>
-                Cinematic Vision.
-            </h1>
-
+        <section class="statement-section">
             <p>
-                Simona Production is a modern independent music label focused on emotional storytelling and powerful visuals.
+                A modern independent production label shaping songs, visuals, and rollout energy from the ground up.
             </p>
+        </section>
 
+        <section class="songs-section" id="releases">
+            <div class="section-header">
+                <p class="eyebrow">Catalogue</p>
+                <h2>Featured Releases</h2>
+            </div>
+
+            <div class="filter-row" aria-label="Release categories">
+                <span>All</span>
+                <span>Music Videos</span>
+                <span>Singles</span>
+                <span>Cinematic</span>
+                <span>2026</span>
+            </div>
+
+            <div class="songs-grid" id="videos">
+                <a href="https://www.youtube.com/watch?v=JAlSBeFZCtg" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/JAlSBeFZCtg/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Music Video</span>
+                        <h3>Latest Release</h3>
+                    </div>
+                    <div class="play-button">Play</div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=H1WVHpcIKqI" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/H1WVHpcIKqI/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Single</span>
+                        <h3>Visual Story</h3>
+                    </div>
+                    <div class="play-button">Play</div>
+                </a>
+
+                <a href="https://www.youtube.com/watch?v=LuN0hrZ6ujw" target="_blank" class="song-card">
+                    <img src="https://img.youtube.com/vi/LuN0hrZ6ujw/maxresdefault.jpg" alt="Featured release thumbnail">
+                    <div class="song-info">
+                        <span>Video</span>
+                        <h3>Simona Cut</h3>
+                    </div>
+                    <div class="play-button">Play</div>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div>
+                <p class="eyebrow">About</p>
+                <h2>Built For Sound And Screen</h2>
+            </div>
+            <p>
+                Simona Production develops independent releases with a focus on mood, identity, and visual impact. The label sits between music production, video direction, and artist presentation.
+            </p>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <p class="eyebrow">Contact</p>
+            <h2>For releases, videos, and collaborations.</h2>
+            <a href="mailto:simonaproduction24@gmail.com" class="btn btn-primary">Email Simona Production</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Simona Production</p>
+        <div>
+            <a href="https://www.instagram.com/simona_production24" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/@simonaproduction5566" target="_blank">YouTube</a>
         </div>
-
-    </section>
-
-    <!-- ========================= -->
-    <!-- FEATURED SONGS -->
-    <!-- ========================= -->
-
-    <section class="songs-section" id="releases">
-
-        <h2>Featured Releases</h2>
-
-        <div class="songs-grid" id="videos">
-
-            <!-- SONG 1 -->
-
-            <a href="https://www.youtube.com/watch?v=JAlSBeFZCtg"
-            target="_blank"
-            class="song-card">
-
-                <img src="https://img.youtube.com/vi/JAlSBeFZCtg/maxresdefault.jpg"
-                    alt="Song Thumbnail">
-
-                <div class="song-overlay">
-
-                    <div class="play-button">
-                        ▶
-                    </div>
-
-                </div>
-
-            </a>
-
-            <!-- SONG 2 -->
-
-            <a href="https://www.youtube.com/watch?v=H1WVHpcIKqI"
-            target="_blank"
-            class="song-card">
-
-                <img src="https://img.youtube.com/vi/H1WVHpcIKqI/maxresdefault.jpg"
-                    alt="Song Thumbnail">
-
-                <div class="song-overlay">
-
-                    <div class="play-button">
-                        ▶
-                    </div>
-
-                </div>
-
-            </a>
-
-            <!-- SONG 3 -->
-
-            <a href="https://www.youtube.com/watch?v=LuN0hrZ6ujw"
-            target="_blank"
-            class="song-card">
-
-                <img src="https://img.youtube.com/vi/LuN0hrZ6ujw/maxresdefault.jpg"
-                    alt="Song Thumbnail">
-
-                <div class="song-overlay">
-
-                    <div class="play-button">
-                        ▶
-                    </div>
-
-                </div>
-
-            </a>
-
-        </div>
-
-    </section>  
+    </footer>
 
     <script src="js/script.js"></script>
-
 </body>
 </html>
